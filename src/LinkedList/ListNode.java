@@ -6,15 +6,15 @@ package LinkedList;
  * @description：链表
  */
 public class ListNode {
-    int val;
-    ListNode next;
+    public int val;
+    public ListNode next;
 
-    ListNode(int x) {
+    public ListNode(int x) {
         val = x;
     }
 
     // 将数组转变为单链表
-    static ListNode createLinkedList(int[] arr) {
+    public static ListNode createLinkedList(int[] arr) {
         if (arr == null || arr.length == 0) return null;
 
         ListNode head = new ListNode(arr[0]);
