@@ -5,7 +5,7 @@ package LinkedList;
  *
  * @author sanhuzhen
  * @time 3/3/25 4:15
- */
+ */ 
 public class Problem1 {
     /**
      * 找到倒数第 k 个节点，我们一般都是用 n - k + 1 来找倒数的节点，n是链表总的节点个数，但这样我们实现并不知道链表总的节点个数，只能先遍历一遍得到总的链表个数，这样有点麻烦了
